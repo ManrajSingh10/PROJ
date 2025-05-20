@@ -1,0 +1,52 @@
+{
+  "rewrites": [
+    {
+      "source": "/login",
+      "destination": "/"
+    },
+    {
+      "source": "/register",
+      "destination": "/"
+    },
+    {
+      "source": "/profile",
+      "destination": "/"
+    },
+    {
+      "source": "/list-property",
+      "destination": "/"
+    },
+    {
+      "source": "/property/:propertyId",
+      "destination": "/"
+    },
+    {
+      "source": "/listRent",
+      "destination": "/"
+    },
+    {
+      "source": "/listSale",
+      "destination": "/"
+    },
+    {
+      "source": "/edit/:propertyId",
+      "destination": "/"
+    },
+    {
+      "source": "/favourites",
+      "destination": "/"
+    },
+    {
+      "source": "/inbox",
+      "destination": "/"
+    },
+    {
+      "source": "/request",
+      "destination": "/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
